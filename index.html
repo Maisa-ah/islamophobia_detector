@@ -1,26 +1,100 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Islamophobia Detector</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./resources.html">Resources</a></li>
-        <!-- <li><a href="./contact">Contact</a></li> -->
-      </ul>
-    </nav>
-    <h2>About Us</h2>
-    <h3>Islamophobia Detector</h3>
-    <p>This extension identifies any websites that are sponsored, run, or supported 
-      by people promoting Islamophobia. Our hope is for you to utilize this extension 
-      to empower yourself and make the decision on if you want to support websites that 
-      may not support you.
-    </p>
-    <img src="">
-    <div id="footer"></div>
+  <body style="background-color:#f0e6e6;">
+    <div class="jumbotron">
+  <h1 class="display-4">Islamophobia Detector</h1>
+  <p class="lead">
+    An extension that detects harmful language and websites that support Islamophobia.</p>
+  <hr class="my-4">
 
+</div>
+    
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <!-- <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" href="./about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./resources.html">Resources</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- NAVBAR ENDS -->
+
+<div class= "container">
+<div class="card-deck">
+  <div class="card">
+    <img style="height:63%" src="images/blackwomen.jpg" class="card-img-top" alt="Black Women">
+    <div class="card-body">
+      <h5 class="card-title">Let's Talk About Islamophobia</h5>
+      <p class="card-text"></p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <a href="./resources.html" class="btn btn-outline-secondary">Learn more</a>
+    </div>
+  </div>
+
+  <!-- Second Card Strats -->
+  <div class="card">
+    <img style="height:63%" src="images/islam.png" class="card-img-top" alt="Islamic symbol"> 
+    <div class="card-body">
+      <h5 class="card-title">Let's Talk About Islam</h5>
+      <p class="card-text"> </p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <a href="https://online-learning.harvard.edu/course/islam-through-its-scriptures?delta=1" class="btn btn-outline-secondary">Learn more</a>
+      
+    </div>
+  </div>
+
+  <!-- Third Card Starts -->
+  <div class="card">
+    <img style="height:63%"src="images/diversity.png" class="card-img-top" alt="Culture">
+    <div class="card-body">
+      <h5 class="card-title">Let's Talk About Community-Building</h5>
+      <p class="card-text"></p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <a href="https://muslimcenter.org/services/" class="btn btn-outline-secondary">Learn more</a>
+      
+      
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Break -->
+<br>
+<br>
+
+    <!-- Footer -->
+    <div class="container">
+      <h4>Contact Us</h4>
+
+      <!-- Add font awesome icons -->
+      <div class="align-middle"> 
+      <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+      </div>
+
+    </div>
   </body>
 </html>
